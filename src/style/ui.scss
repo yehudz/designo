@@ -1,0 +1,27 @@
+@use 'variables.scss';
+
+.primaryButton {
+  min-width: 156px;
+  height: 56px;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 56px;
+  outline: none;
+  border: none;
+  appearance: none;
+  text-transform: uppercase;
+  transition: opacity 200ms ease;
+  cursor: pointer;
+  &:hover {
+    opacity: .5;
+  }
+}
+
+.primaryButton.white {
+  background-color: variables.$white;
+}
+
+.primaryButton.peach {
+  color: variables.$white;
+  background-color: variables.$peach;
+}
