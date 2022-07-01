@@ -1,0 +1,14 @@
+.topBarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .logoContainer {
+    img {
+      width: 202px;
+    }
+  }
+  .hamburgerMenu {
+    cursor: pointer;
+  }
+}

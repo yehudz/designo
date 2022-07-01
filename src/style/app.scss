@@ -1,8 +1,14 @@
 @use './variables.scss';
 @use './ui.scss';
+@use './topbar.scss';
 
 html {
   font-family: 'Jost', sans-serif;
+  
+  main {
+    margin: 24px;
+  }
+
   h1 {
     font-size: 48px;
     line-height: 48px;

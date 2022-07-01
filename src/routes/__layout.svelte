@@ -1,5 +1,8 @@
 <script>
-  import '../style/app.scss'
+  import TopBar from '$lib/layout/TopBar.svelte';
+import '../style/app.scss'
 </script>
-
-<slot></slot>
+<main>
+  <TopBar />
+  <slot></slot>
+</main>
