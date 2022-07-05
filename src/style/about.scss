@@ -38,3 +38,23 @@
     }
   }
 }
+
+.aboutUsLowerSection {
+  .image {
+    height: 320px;
+    background-image: url('assets/about/mobile/image-real-deal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content {
+    background-color: variables.$peach-bg;
+    padding: 80px 24px;
+    text-align: center;
+    .title {
+      color: variables.$peach;
+      font-size: 32px;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+  }
+}
