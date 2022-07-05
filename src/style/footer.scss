@@ -1,0 +1,71 @@
+@use './variables';
+
+.footerContainer {
+  box-sizing: border-box;
+  background-color: variables.$black;
+  position: relative;
+  margin-top: 300px;
+  .footerMessageContainer {
+    position: absolute;
+    top: -200px;
+    height: 379px;
+    margin: 24px 24px 0 24px;
+    border-radius: 10px;
+    background-color: variables.$peach;
+  }
+
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -140px;
+    .logoContainer {
+      border-bottom: 1px solid rgba(255, 255, 255, .1);
+      padding-bottom: 24px;
+      width: calc(100% - 48px);
+      text-align: center;
+      img {
+        width: 157px;
+      }
+    }
+
+    .footerMenu {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+      li {
+        font-size: 14px;
+        color: #fff;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding-top: 16px;
+      }
+    }
+  }
+
+  .footerContactCard {
+    color: rgba(255,255,255, .3);
+    text-align: center;
+    margin-top: 20px;
+    .title {
+      font-weight: 500;
+      margin-bottom: -10px;
+    }
+    .body-2 {
+      width: 200px;
+    }
+  }
+
+  .footerLogos {
+    display: flex;
+    justify-content: space-between;
+    width: 184px;
+    margin-top: 24px;
+    margin-bottom: 64px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
