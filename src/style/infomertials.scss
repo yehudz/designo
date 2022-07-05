@@ -1,0 +1,30 @@
+.infomertialContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+  padding-top: 72px;
+  .infomertialImageContainer {
+    position: relative;
+    width: 202px;
+    .bg, .img {
+      position: absolute;
+      width: 100%;
+    }
+    .bg {
+      transform: rotate(-90deg);
+    }
+  }
+
+  .textContent {
+    margin-top: 220px;
+    text-align: center;
+
+    h3 {
+      letter-spacing: 5px;
+      font-weight: 400;
+      margin-bottom: 24px;
+    }
+  }
+}
