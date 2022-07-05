@@ -1,5 +1,7 @@
 <ul class="footerMenu">
-  <li>Our Company</li>
+  <a href="/about">
+    <li>Our Company</li>
+  </a>
   <li>Locations</li>
   <li>Contact</li>
 </ul>

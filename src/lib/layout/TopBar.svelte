@@ -3,9 +3,9 @@
 </script>
 
 <div class="topBarContainer">
-  <div class="logoContainer">
+  <a href="/" class="logoContainer">
     <img src="/assets/shared/desktop/logo-dark.png" alt="Logo">
-  </div>
+  </a>
   {#if isMobile}
     <div class="hamburgerMenu">
       <img src="/assets/shared/mobile/icon-hamburger.svg" alt="Menu Icon">
