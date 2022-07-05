@@ -1,0 +1,40 @@
+@use './variables';
+.aboutUsHeroSection {
+  .image {
+    height: 320px;
+    background-image: url('assets/about/mobile/image-about-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content {
+    color: #fff;
+    background-color: variables.$peach;
+    padding: 80px 24px;
+    text-align: center;
+    .title {
+      font-size: 32px;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.aboutUsSubSection {
+  .image {
+    height: 320px;
+    background-image: url('assets/about/mobile/image-world-class-talent.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content {
+    background-color: variables.$peach-bg;
+    padding: 80px 24px;
+    text-align: center;
+    .title {
+      color: variables.$peach;
+      font-size: 32px;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+  }
+}
