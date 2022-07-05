@@ -1,4 +1,4 @@
-<script>
+<script context="module">
   import PageHeader from "$lib/components/PageHeader.svelte";
   import ShowCaseCard from "$lib/components/ShowCaseCard.svelte";
   import ViewProjectCard from "$lib/components/ViewProjectCard.svelte";
