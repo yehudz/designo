@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LocationCard from '$lib/components/LocationCard.svelte';
+  import LocationCard from '$lib/components/LocationIllustrationCard.svelte';
   import locationsData from '$lib/factories/locations-factory';
 </script>
 <div class="locationsContainer">
