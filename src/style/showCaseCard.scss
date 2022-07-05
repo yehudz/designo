@@ -1,0 +1,28 @@
+@use './variables';
+
+.showCaseCard {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 24px;
+  overflow: hidden;
+  border-radius: 10px;
+  img {
+    width: 100%;
+  }
+  .cardContent {
+    background-color: variables.$peach-bg;
+    text-align: center;
+    padding: 24px;
+    .title {
+      font-size: 20px;
+      font-weight: 500;
+      color: variables.$peach;
+      text-transform: uppercase;
+      margin: 12px 0;
+      letter-spacing: 5px;
+    }
+    .subtitle {
+      font-size: 16px;
+    }
+  }
+}

@@ -6,6 +6,7 @@
 @use './infomertials.scss';
 @use './footer.scss';
 @use './pageHeader.scss';
+@use './showCaseCard.scss';
 
 * {
   box-sizing: border-box;
@@ -57,5 +58,9 @@ html {
     font-size: 15px;
     line-height: 25px;
     font-weight: 300;
+  }
+
+  .showCase {
+    margin: 64px 0;
   }
 }
