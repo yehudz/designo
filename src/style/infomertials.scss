@@ -15,6 +15,12 @@
     .bg {
       transform: rotate(-90deg);
     }
+    .bg.rotate90deg {
+      transform: rotate(-180deg);
+    }
+    .bg.rotate0deg {
+      transform: rotate(0deg);
+    }
   }
 
   .textContent {

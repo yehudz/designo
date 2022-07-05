@@ -2,11 +2,12 @@
   export let image: string
   export let title: string
   export let text: string
+  export let rotate: string
 </script>
 
 <div class="infomertialContainer">
   <div class="infomertialImageContainer">
-    <img class="bg" src="assets/home/desktop/bg-pattern-hero-home.svg" alt="">
+    <img class={`bg ${rotate}`} src="assets/home/desktop/bg-pattern-hero-home.svg" alt={title}>
     <img class="img" src={image} alt={title}>
   </div>
   <div class="textContent">
