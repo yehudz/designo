@@ -11,6 +11,12 @@
       left: 0;
       width: 100%;
     }
+    .circle.rotate90deg {
+      transform: rotate(-90deg);
+    }
+    .circle.rotate180deg {
+      transform: rotate(-180deg);
+    }
   }
   .name {
     text-transform: uppercase;
