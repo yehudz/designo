@@ -9,23 +9,38 @@ import PrimaryButton from "$lib/ui/PrimaryButton.svelte";
   <img class="hero-image" src="/assets/home/desktop/image-hero-phone.png" alt="Hero Phone" />
 </div>
 
-<style>
+<style lang="scss">
   h4 {
+    font-size: 32px;
     color: #fff;
     text-align: center;
     font-weight: 400;
     margin-bottom: 16px;
+    max-width: 316px;
+    margin: 0 auto;
+    margin-top: 48px;
+    @media screen and (min-width: 736px) {
+      font-size: 48px;
+      max-width: 500px;
+      line-height: 48px;
+      margin-bottom: 24px;
+    }
   }
   p {
     color: #fff;
     text-align: center;
     margin-bottom: 24px;
+    @media screen and (min-width: 736px) {
+      font-size: 16px;
+      max-width: 455px;
+      margin: 0 auto;
+      margin-bottom: 48px;
+    }
   }
   .hero-image {
     position: absolute;
-    top: 300px;
+    top: calc(50% + 325px);
     left: 50%;
-    transform: translateX(-50%);
-    width: 170%;
+    transform: translate(-50%, -50%);
   }
 </style>
