@@ -1,0 +1,22 @@
+@use './variables';
+
+.pageHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background-color: variables.$peach;
+  color: #fff;
+  min-height: 320px;
+  text-align: center;
+  background-image: url('assets/shared/desktop/bg-pattern-two-circles.svg');
+  background-size: cover;
+
+  .title {
+    font-size: 32px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
