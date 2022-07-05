@@ -8,6 +8,7 @@
 @use './pageHeader.scss';
 @use './showCaseCard.scss';
 @use './about.scss';
+@use './locationCard.scss';
 
 * {
   box-sizing: border-box;
@@ -63,5 +64,9 @@ html {
 
   .showCase {
     margin: 64px 0;
+  }
+
+  .locationsContainer {
+    margin-top: 128px;
   }
 }

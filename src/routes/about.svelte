@@ -1,3 +1,6 @@
+<script>
+  import Locations from "$lib/layout/Locations.svelte";
+</script>
 <div class="aboutUsHeroSection">
   <div class="image"></div>
   <div class="content">
@@ -15,3 +18,4 @@
       Our team is multi-disciplinary and we are not merely interested in form — content and meaning are just as important. We give great importance to craftsmanship, service, and prompt delivery. Clients have always been impressed with our high-quality outcomes that encapsulates their brand’s story and mission.</div>
   </div>
 </div>
+<Locations />
