@@ -2,11 +2,11 @@
   import PageHeader from "$lib/components/PageHeader.svelte";
   import ShowCaseCard from "$lib/components/ShowCaseCard.svelte";
   import ViewProjectCard from "$lib/components/ViewProjectCard.svelte";
-  import webdesignShowCaseData from "$lib/factories/web-design-show-case";
+  import appdesignShowCaseData from "$lib/factories/app-design-show-case";
 </script>
-<PageHeader title={"Web Design"} text={"We build websites that serve as powerful marketing tools and bring memorable brand experiences."}/>
+<PageHeader title={"App Design"} text={"Our mobile designs bring intuitive digital solutions to your customers right at their fingertips."}/>
 <div class="showCase">
-  {#each webdesignShowCaseData as item}
+  {#each appdesignShowCaseData as item}
     <ShowCaseCard 
       image={item.image}
       title={item.title}
@@ -15,9 +15,9 @@
   {/each}
   <div class="viewProjectsContainer">
     <ViewProjectCard 
-      title={"App Design"} 
-      image={'/assets/home/mobile/image-app-design.jpg'}
-      url={"app-design"}
+      title={"Web Design"} 
+      image={'/assets/home/mobile/image-web-design.jpg'}
+      url={"web-design"}
     />
     <ViewProjectCard 
       title={"Graphic Design"} 
