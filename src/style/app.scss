@@ -9,6 +9,7 @@
 @use './showCaseCard.scss';
 @use './about.scss';
 @use './locationIllustationCard.scss';
+@use './locationCard.scss';
 
 * {
   box-sizing: border-box;
@@ -66,7 +67,7 @@ html {
     margin: 64px 0;
   }
 
-  .locationsContainer {
+  .locationsList {
     margin: 128px 0;
   }
 }

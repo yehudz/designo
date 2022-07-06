@@ -1,0 +1,38 @@
+@use './variables';
+
+.locationCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+  .content {
+    padding: 24px;
+    text-align: center;
+    background-color: variables.$peach-bg;
+    width: 100%;
+    font-size: 15px;
+    .country {
+      font-weight: 400;
+      color: variables.$peach;
+      font-size: 32px;
+      margin: 24px 0;
+    }
+
+    .textContent {
+      margin-bottom: 24px;
+    }
+
+    .title, .contactTitle {
+      font-weight: bold;
+    }
+    .address {
+      text-align: center;
+      max-width: 200px;
+      margin: 0 auto;
+    }
+    .contactPhone, .contactEmail {
+      text-align: center;
+    }
+  }
+}
