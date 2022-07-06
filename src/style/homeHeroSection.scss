@@ -12,7 +12,8 @@
   background-repeat: no-repeat;
   background-position: 0px 90px;
   overflow: hidden;
-  button {
+  a {
    align-self: center;
+   z-index: 1;
   }
 }

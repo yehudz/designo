@@ -9,9 +9,9 @@
 
 <div class="mobileMenuContainer">
   <div class="menuList">
-    <a in:fly={{y: -50, duration: 500}} on:click={navigate} href="/about">Our Company</a>
-    <a in:fly={{y: -50, duration: 500, delay: 100}} on:click={navigate} href="/locations">Locations</a>
-    <a in:fly={{y: -50, duration: 500, delay: 200}} on:click={navigate} href="/contact">Contact</a>
+    <a in:fly={{y: -50, duration: 550}} on:click={navigate} href="/about">Our Company</a>
+    <a in:fly={{y: -50, duration: 550, delay: 100}} on:click={navigate} href="/locations">Locations</a>
+    <a in:fly={{y: -50, duration: 550, delay: 200}} on:click={navigate} href="/contact">Contact</a>
   </div>
   <div class="overlay"></div>
 </div>

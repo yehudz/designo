@@ -5,7 +5,9 @@ import PrimaryButton from "$lib/ui/PrimaryButton.svelte";
 <div class="homeHeroSection">
   <h4>Award-winning custom designs and digital branding solutions</h4>
   <p class="body-2">With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
-  <PrimaryButton buttonColor={'#fff'} buttonText={"Learn More"}></PrimaryButton>
+  <a href="/contact">
+    <PrimaryButton buttonColor={'#fff'} buttonText={"Learn More"} submitForm={()=> {}}></PrimaryButton>
+  </a>
   <img class="hero-image" src="/assets/home/desktop/image-hero-phone.png" alt="Hero Phone" />
 </div>
 

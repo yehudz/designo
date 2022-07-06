@@ -12,5 +12,7 @@
     <img src="assets/home/desktop/bg-pattern-hero-home.svg" class={`circle ${rotate}`} alt="background"/>
   </div>
   <div class="name">{name}</div>
-  <PrimaryButton buttonColor="peach" buttonText="See location"></PrimaryButton>
+  <a href="/locations">
+    <PrimaryButton buttonColor="peach" buttonText="See location" submitForm={()=> {}}></PrimaryButton>
+  </a>
 </div>

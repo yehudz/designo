@@ -4,13 +4,15 @@
   export let text: string
 </script>
 
+<a href="/contact">
 <div class="footerMessageContainer">
   <h4>{title}</h4>
   <p class="body-2">
     {text}
   </p>
-  <PrimaryButton buttonText={"Get in touch"} buttonColor="white"></PrimaryButton>
-</div>
+    <PrimaryButton buttonText={"Get in touch"} buttonColor="white" submitForm={()=> {}}></PrimaryButton>
+  </div>
+</a>
 
 <style lang="scss">
   .footerMessageContainer {
