@@ -9,7 +9,6 @@
     else imageSrc = "/assets/shared/mobile/icon-hamburger.svg"
     document.body.classList.toggle('noScroll'); 
   }
-  console.log(imageSrc)
 </script>
 <div class="topBarContainer">
   <a href="/" class="logoContainer">
