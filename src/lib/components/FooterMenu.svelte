@@ -5,5 +5,7 @@
   <a href="/locations">
     <li>Locations</li>
   </a>
-  <li>Contact</li>
+  <a href="/contact">
+    <li>Contact</li>
+  </a>
 </ul>

@@ -1,6 +1,5 @@
 <script lang="ts">
-import PrimaryButton from "$lib/ui/PrimaryButton.svelte"
-
+  import PrimaryButton from "$lib/ui/PrimaryButton.svelte"
   export let title: string
   export let text: string
 </script>

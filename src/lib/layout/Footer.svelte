@@ -1,15 +1,18 @@
-<script>
+<script lang="ts">
   import FooterContact from "$lib/components/FooterContact.svelte";
-import FooterLogos from "$lib/components/FooterLogos.svelte";
-import FooterMenu from "$lib/components/FooterMenu.svelte";
-import FooterMessage from "$lib/components/FooterMessage.svelte";
+  import FooterLogos from "$lib/components/FooterLogos.svelte";
+  import FooterMenu from "$lib/components/FooterMenu.svelte";
+  import FooterMessage from "$lib/components/FooterMessage.svelte";
+  export let isContactForm: boolean
 </script>
 <div class="footerContainer">
-  <FooterMessage 
-    title={"Let’s talk about your project"}
-    text={"Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow."}
-  />
-  <div class="footerContent">
+  {#if !isContactForm}
+    <FooterMessage 
+      title={"Let’s talk about your project"}
+      text={"Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow."}
+    />
+  {/if}
+  <div class={`footerContent ${isContactForm}`}>
     <div class="logoContainer">
       <img src="assets/shared/desktop/logo-light.png" alt="Footer logo">
     </div>
