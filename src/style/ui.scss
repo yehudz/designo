@@ -25,3 +25,26 @@
   color: variables.$white;
   background-color: variables.$peach;
 }
+
+.primaryInput {
+  appearance: none;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff !important;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 24px;
+  outline: none;
+  &::placeholder {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .3);
+  }
+  &:autofill {
+    background-color: transparent !important;
+  }
+  &:-webkit-autofill {
+    background-color: transparent !important;
+  }
+}

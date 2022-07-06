@@ -1,0 +1,16 @@
+@use './variables';
+
+.contactFormContainer {
+  color: #fff;
+  background-color: variables.$peach;
+  padding: 24px;
+  .content {
+    text-align: center;
+  }
+  .contactContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
