@@ -6,5 +6,5 @@
 <main>
   <TopBar />
   <slot></slot>
-  <Footer />
+  <Footer isContactForm={false}/>
 </main>
