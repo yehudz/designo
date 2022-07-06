@@ -12,5 +12,44 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    .inputContainer {
+      position: relative;
+      width: 100%;
+      .primaryInput {
+        appearance: none;
+        background-color: transparent !important;
+        background-image: none !important;
+        border: none;
+        border-bottom: 1px solid #fff;
+        color: #fff !important;
+        padding: 15px;
+        width: 100%;
+        margin-bottom: 24px;
+        outline: none;
+        &::placeholder {
+          font-size: 15px;
+          color: rgba(255, 255, 255, .3);
+        }
+        &:autofill {
+          background-color: transparent !important;
+        }
+        &:-webkit-autofill {
+          background-color: transparent !important;
+        }
+      }
+      label, img {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        font-style: italic;
+      }
+      label {
+        right: 32px;
+      }
+      img {
+        top: 12px;
+      }
+    }
   }
 }
