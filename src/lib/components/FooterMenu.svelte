@@ -2,6 +2,8 @@
   <a href="/about">
     <li>Our Company</li>
   </a>
-  <li>Locations</li>
+  <a href="/locations">
+    <li>Locations</li>
+  </a>
   <li>Contact</li>
 </ul>

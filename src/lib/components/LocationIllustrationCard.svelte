@@ -6,7 +6,7 @@
   export let rotate: string
 </script>
 
-<div class="locationCard">
+<div class="locationIllustationCard">
   <div class="illustration">
     <img src={illustration} alt={`Illustration of ${name}`}>
     <img src="assets/home/desktop/bg-pattern-hero-home.svg" class={`circle ${rotate}`} alt="background"/>

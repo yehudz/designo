@@ -1,9 +1,9 @@
 <script lang="ts">
-  import LocationCard from '$lib/components/LocationIllustrationCard.svelte';
-  import locationsData from '$lib/factories/locations-factory';
+  import LocationIllustationCard from '$lib/components/LocationIllustrationCard.svelte';
+  import locationsData from '$lib/factories/locations-list-factory';
 </script>
 <div class="locationsContainer">
   {#each locationsData as location}
-    <LocationCard name={location.name} illustration={location.ilustration} rotate={location.rotate}/>
+    <LocationIllustationCard name={location.name} illustration={location.ilustration} rotate={location.rotate}/>
   {/each}
 </div>
